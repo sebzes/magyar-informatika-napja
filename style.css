@@ -1,0 +1,17 @@
+header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    width: 50%;
+}
+
+header article {
+    width: 100%;
+}

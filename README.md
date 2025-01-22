@@ -1,0 +1,2 @@
+# magyar-informatika-napja
+> Zalán

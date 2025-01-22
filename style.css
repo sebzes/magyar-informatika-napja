@@ -9,32 +9,9 @@ h1 {
 }
 
 img {
-    display: block;
     width: 50%;
-    margin: auto;
 }
 
 header article {
     width: 100%;
-}
-
-.kepsection {
-    display: flex;
-    flex-wrap: wrap;
-
-}
-
-.kepsection article {
-    width: 50%;
-}
-
-nav {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-button {
-    margin: .5rem;
-    font-size: xx-large;
 }

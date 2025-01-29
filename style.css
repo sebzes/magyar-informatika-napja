@@ -102,3 +102,25 @@ form p, label {
 a {
     text-decoration: none;
 }
+
+textarea {
+    width: auto;
+}
+
+.adatok{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.adatok article{
+    width: 100%;
+}
+
+p{
+    text-indent: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

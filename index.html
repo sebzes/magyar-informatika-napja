@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Magyar Informatika Napja</title>
-    <link rel="stylesheet" href="style.css">
-
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
     </style>
+    <link rel="stylesheet" href="style.css">
+
+    
 </head>
 <body>
     
@@ -49,16 +50,33 @@
 
         <section>
             <article>
-
+                <h2>Történeti érdekességek</h2>
+                <p>A gép összességében 770 elektroncsőből és 2000 kuprox-diódából állt, közel 500 alegységbe szervezve, és mintegy 30 m² területet foglalt el; 10 kW fogyasztása miatt hűtése komoly problémát okozott. A hálózati feszültségingadozások kiküszöbölése érdekében a tápfeszültséget egy motorgenerátor szolgáltatta. Dobmemóriából négyet is a géphez lehetett (volna) kapcsolni. Hibakeresésre és tesztelésre külön „alegység-vizsgáló” berendezés szolgált.
+                    Az M-3 gépen szólalt meg az első magyar „számítógépes zene” is, a saját fejlesztésű hardver kiegészítés révén. Minden programnak jellegzetes zenéje volt, amelyet programozója már jól ismert; így például a diagnosztikai programok „zenéjéből” meg lehetett állapítani, hogy a gép jól vagy hibásan működik-e – már, ha valakinek jó füle volt.
+                    A gépet szegedi működése végén szétszerelték, alkatrészeit más célokra felhasználták. Az első magyar fejlesztésű elektronikus számítógép lévén, fontos szerepet játszott a számítástechnikai kultúra hazai elterjesztésében. Az MTA KKCS munkatársai a későbbiekben a hazai számítástechnikai fejlesztések és alkalmazások meghatározó személyiségei lettek.</p>
             </article>
             <article>
-
+                <h2>Az M-3 jelentősége</h2>
+                <p>Az M–3 elsődlegesen műszaki tudományos számítások végzésére tervezték. Kiválóan alkalmas volt közönséges és parciális differenciálegyenletek integrálására. Nem csak lineáris, hanem nemlineáris egyenletek esetén is. Sokváltozós algebrai és transzcendens egyenletek megoldására és lineáris programozási feladatok elvégzésére.
+                    Az M–3-as számítógépnek, és a gépet létrehozó Kibernetikai Kutató Csoportnak a hatása a magyar informatikára szinte felmérhetetlen. Létrejött az a szakmai műhely, amely képes volt az országban először egy működő számítógépet felépíteni, kialakult az az informatikus gárda amelyik a feladat kitűzésétől annak kódolásán át komplett feladatok megoldására képes volt. És nem utolsósorban, kialakult az a felhasználói kör, amely megértette a számítástechnika jelentőségét, és megszületett a számítógép használt iránti igény a gazdaság legkülönbözőbb területein.
+                    Felsorolásként néhány az M–3 segítségével végzett nagyobb jelentőségű munka:</p>
+            </article>
+            <article>
+                <h2>Magyar informatika születésnapja</h2>
+                <p>A Magyar Informatika Napja január 21-én kerül megünneplésre, és 2022 óta hivatalosan is az informatika magyarországi történetének egyik fontos eseményeként szerepel. Az ünnephez kapcsolódóan emlékezünk meg arról a jelentős pillanatról, amikor 1959. január 21-én a sajtó először számolt be az első magyar, Neumann-elvű elektronikus számítógép, az M-3 működéséről. Ez a nap nemcsak a magyar informatika születésének egyik mérföldköve, hanem az egész magyar tudományos közösség számára kiemelkedő pillanat volt, hiszen az M-3 számítógép a világ egyik első olyan gépe volt, amely a Neumann-architektúrát alkalmazta.</p>
+            </article>
+            <article>
+                <h2>Szakemberek</h2>
+                <p></p>
             </article>
         </section>
 
 
 
         <section>
+            <div>
+
+            </div>
             <form name="urlap">
                 <label for="nev">Név:</label>
                 <input type="text" id="nev" name="nev">
@@ -74,9 +92,9 @@
                 <br><br>
 
                 <p>Neme:</p>
-                <label for="ferfi">Férfi</label>
+                <label for="ferfi" class="nem">Férfi</label>
                 <input type="radio" id="ferfi" name="nem">
-                <label for="no">Nő</label>
+                <label for="no" class="nem">Nő</label>
                 <input type="radio" id="no" name="nem">
                 <br><br>
 
@@ -91,18 +109,16 @@
                     <option value="1000">Parkolóhely</option>
                     <option value="3000">Étkezés</option>
                     <option value="2500">Egyéb</option>
-                </select><br>
+                </select>
 
-                <label for="uzenet">Üzente:</label><br>
-                <textarea name="uzenet" id="uzenet" col="70" rows="20"></textarea>
+                <br><br>
+                <label for="uzenet">Üzente:</label>
+                <br>
+                <textarea name="uzenet" id="uzenet" cols="40" rows="10"></textarea>
 
 
             </form>
         </section>
-
-
-
-
 
 
     </main>

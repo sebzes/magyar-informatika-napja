@@ -86,6 +86,11 @@ input, select, option {
     width: 10rem;
 }
 
+input, select {
+    border-radius: .5rem;
+    font-size: large;
+}
+
 form p, label {
     text-decoration: underline;
 }

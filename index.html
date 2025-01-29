@@ -43,7 +43,9 @@
             <article>
                 <button><a href="#infonap">Magyar informatika születésnapja</a></button>
             </article>
-
+            <article>
+                <button><a href="#jelentkezes">Jelentkezés</a></button>
+            </article>
         </nav>
 
 
@@ -79,10 +81,7 @@
 
 
         <section>
-            <div>
-
-            </div>
-            <form name="urlap">
+            <form name="urlap" id="jelentkezes">
                 <label for="nev">Név:</label>
                 <input type="text" id="nev" name="nev" placeholder="Teljes név">
                 <br><br>
@@ -118,12 +117,14 @@
 
                 <br><br>
                 <label for="uzenet">Üzente:</label>
-                <br>
+                <br><br>
                 <textarea name="uzenet" id="uzenet" cols="40" rows="10" placeholder="Írja ide az üzenetét"></textarea>
+                <br>
 
+                <input type="button" value="Küldés" onclick="szamol()">
+                <br><br>
 
-                <input type="button" value="Küldés">
-
+                <p id="szoveg"></p>
 
             </form>
         </section>

@@ -51,7 +51,6 @@ nav {
     justify-content: center;
     flex-wrap: wrap;
     background-color: #E5E5E5;
-    margin: .5rem;
 }
 
 button {
@@ -66,4 +65,31 @@ button:hover {
     background-color: #E5E5E5;
     text-decoration: underline;
     border-radius: .75rem;
+}
+
+form {
+    text-align: center;
+    margin: auto;
+    font-size: xx-large;
+    font-family: "Lexend";
+    border: 3px solid #1D919C;
+    width: 40%;
+    padding: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 3rem;
+    box-shadow: 5px 5px #105359;
+}
+
+input, select, option {
+    height: 2rem;
+    width: 10rem;
+}
+
+form p, label {
+    text-decoration: underline;
+}
+
+.nem {
+    text-decoration: none;
 }

@@ -4,12 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Magyar Informatika Napja</title>
-    
     <link rel="stylesheet" href="style.css">
-
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
-    </style>
 </head>
 <body>
     
@@ -45,6 +40,64 @@
             </article>
 
         </nav>
+
+
+
+        <section>
+            <article>
+
+            </article>
+            <article>
+
+            </article>
+        </section>
+
+
+
+        <section>
+            <form name="urlap">
+                <label for="nev">Név:</label>
+                <input type="text" id="nev" name="nev">
+                <br><br>
+                <label for="emailcim">Email:</label>
+                <input type="email" id="emailcim">
+                <br><br>
+                <label for="teloszam">Telefonszám:</label>
+                <input type="number" id="teloszam" name="teloszam">
+                <br><br>
+                <label for="kor">Életkor:</label>
+                <input type="number" id="kor" name="kor">
+                <br><br>
+
+                <p>Neme:</p>
+                <label for="ferfi">Férfi</label>
+                <input type="radio" id="ferfi" name="nem">
+                <label for="no">Nő</label>
+                <input type="radio" id="no" name="nem">
+                <br><br>
+
+                <p>Hány embernek szeretne jegyet rendelni? </p>
+                <label for="jegy">Jegyek:</label>
+                <input type="number" id="jegy" name="jegy" min="1">
+                <br><br>
+
+                <p>Szolgáltatások:</p>
+                <select name="szolg" id="szolg">
+                    <option value="10000">Szállás</option>
+                    <option value="1000">Parkolóhely</option>
+                    <option value="3000">Étkezés</option>
+                    <option value="2500">Egyéb</option>
+                </select>
+
+                <label for="uzenet">Üzente:</label>
+                <textarea name="uzenet" id="uzenet" col="70" rows="20"></textarea>
+
+
+            </form>
+        </section>
+
+
+
 
 
 
